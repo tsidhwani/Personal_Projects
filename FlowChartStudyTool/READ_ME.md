@@ -40,21 +40,36 @@ Let's build a simple tree to identify an animal.
 
 $ python study_tool.py--- Binary Tree Study Tool ---
 
-First, let's build your study tree. You will define questions and the 'yes'/'no' paths for each. 
+First, let's build your study tree. You will define questions and the 'yes'/'no' paths for each.
+ 
 Enter the text for this node (question or final answer): Does it live in the ocean? 
+
 Is this a leaf node (a final answer)? (y/n): n
+
 Let's define the 'NO' branch for the question: 'Does it live in the ocean?'Enter the text for this node (question or final answer): Does it have stripes?
+
 Is this a leaf node (a final answer)? (y/n): n
+
 Let's define the 'NO' branch for the question: 'Does it have stripes?'Enter the text for this node (question or final answer): It might be a Lion.
+
 Is this a leaf node (a final answer)? (y/n): y
+
 Let's define the 'YES' branch for the question: 'Does it have stripes?'Enter the text for this node (question or final answer): It might be a Zebra.
+
 Is this a leaf node (a final answer)? (y/n): y
+
 Let's define the 'YES' branch for the question: 'Does it live in the ocean?'Enter the text for this node (question or final answer): Is it a mammal?
+
 Is this a leaf node (a final answer)? (y/n): n
+
 Let's define the 'NO' branch for the question: 'Is it a mammal?'Enter the text for this node (question or final answer): It might be a Fish.
+
 Is this a leaf node (a final answer)? (y/n): y
+
 Let's define the 'YES' branch for the question: 'Is it a mammal?'Enter the text for this node (question or final answer): It might be a Whale.
+
 Is this a leaf node (a final answer)? (y/n): y
+
 Tree construction complete!
 
 
