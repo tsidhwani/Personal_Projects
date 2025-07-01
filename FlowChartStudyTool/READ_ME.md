@@ -38,10 +38,43 @@ Let's build a simple tree to identify an animal.
 
 **Building Phase:**
 
-$ python study_tool.py--- Binary Tree Study Tool ---First, let's build your study tree.You will define questions and the 'yes'/'no' paths for each.Enter the text for this node (question or final answer): Does it live in the ocean?Is this a leaf node (a final answer)? (y/n): nLet's define the 'NO' branch for the question: 'Does it live in the ocean?'Enter the text for this node (question or final answer): Does it have stripes?Is this a leaf node (a final answer)? (y/n): nLet's define the 'NO' branch for the question: 'Does it have stripes?'Enter the text for this node (question or final answer): It might be a Lion.Is this a leaf node (a final answer)? (y/n): yLet's define the 'YES' branch for the question: 'Does it have stripes?'Enter the text for this node (question or final answer): It might be a Zebra.Is this a leaf node (a final answer)? (y/n): yLet's define the 'YES' branch for the question: 'Does it live in the ocean?'Enter the text for this node (question or final answer): Is it a mammal?Is this a leaf node (a final answer)? (y/n): nLet's define the 'NO' branch for the question: 'Is it a mammal?'Enter the text for this node (question or final answer): It might be a Fish.Is this a leaf node (a final answer)? (y/n): yLet's define the 'YES' branch for the question: 'Is it a mammal?'Enter the text for this node (question or final answer): It might be a Whale.Is this a leaf node (a final answer)? (y/n): yTree construction complete!
+$ python study_tool.py--- Binary Tree Study Tool ---
+
+First, let's build your study tree. You will define questions and the 'yes'/'no' paths for each. 
+Enter the text for this node (question or final answer): Does it live in the ocean? 
+Is this a leaf node (a final answer)? (y/n): n
+Let's define the 'NO' branch for the question: 'Does it live in the ocean?'Enter the text for this node (question or final answer): Does it have stripes?
+Is this a leaf node (a final answer)? (y/n): n
+Let's define the 'NO' branch for the question: 'Does it have stripes?'Enter the text for this node (question or final answer): It might be a Lion.
+Is this a leaf node (a final answer)? (y/n): y
+Let's define the 'YES' branch for the question: 'Does it have stripes?'Enter the text for this node (question or final answer): It might be a Zebra.
+Is this a leaf node (a final answer)? (y/n): y
+Let's define the 'YES' branch for the question: 'Does it live in the ocean?'Enter the text for this node (question or final answer): Is it a mammal?
+Is this a leaf node (a final answer)? (y/n): n
+Let's define the 'NO' branch for the question: 'Is it a mammal?'Enter the text for this node (question or final answer): It might be a Fish.
+Is this a leaf node (a final answer)? (y/n): y
+Let's define the 'YES' branch for the question: 'Is it a mammal?'Enter the text for this node (question or final answer): It might be a Whale.
+Is this a leaf node (a final answer)? (y/n): y
+Tree construction complete!
+
+
 **Quizzing Phase:**
 
---- Starting Quiz ---Answer the following questions with 'yes' or 'no'.Question: Does it live in the ocean? (yes/no): yesQuestion: Is it a mammal? (yes/no): yes--- Result --- Conclusion: It might be a Whale.Would you like to take the quiz again? (y/n): y--- Starting Quiz ---Answer the following questions with 'yes' or 'no'.Question: Does it live in the ocean? (yes/no): noQuestion: Does it have stripes? (yes/no): yes--- Result --- Conclusion: It might be a Zebra.Would you like to take the quiz again? (y/n): nThank you for using the Study Tool. Goodbye!
+--- Starting Quiz ---Answer the following questions with 'yes' or 'no'.
+Question: Does it live in the ocean? (yes/no): yes
+Question: Is it a mammal? (yes/no): yes
+
+--- Result --- Conclusion: It might be a Whale.
+
+Would you like to take the quiz again? (y/n): y
+--- Starting Quiz ---Answer the following questions with 'yes' or 'no'.
+Question: Does it live in the ocean? (yes/no): no
+Question: Does it have stripes? (yes/no): yes
+
+--- Result --- Conclusion: It might be a Zebra.
+
+Would you like to take the quiz again? (y/n): n
+Thank you for using the Study Tool. Goodbye!
 ## Code Overview
 
 -   `TreeNode` **class**: The basic building block. Each instance holds `data` (text) and pointers to `left` (no) and `right` (yes) children.
